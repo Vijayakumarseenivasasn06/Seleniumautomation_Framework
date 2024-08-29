@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pkg.OrangeHRM.Automation.release1.TC_04_SearchAdmin">
+        <methods>
+          <include name="report"/>
+          <include name="Setdata"/>
+          <include name="stopReport"/>
+          <include name="startReport"/>
+          <include name="Searchadmin"/>
+        </methods>
+      </class> <!-- pkg.OrangeHRM.Automation.release1.TC_04_SearchAdmin -->
+      <class name="pkg.OrangeHRM.Automation.release1.TC_03_Admin">
+        <methods>
+          <include name="Admin_creation"/>
+          <include name="report"/>
+          <include name="Setdata"/>
+          <include name="stopReport"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- pkg.OrangeHRM.Automation.release1.TC_03_Admin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
